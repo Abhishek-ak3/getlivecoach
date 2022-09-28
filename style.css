@@ -1,0 +1,154 @@
+body {
+    padding: 0px 300px;
+}
+
+.cont {
+    background-color: #f3f3f3;
+
+}
+
+.head img {
+    font-size: 0px;
+    padding: 10px 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    word-break: break-word;
+}
+
+.second img {
+    height: 147px;
+    display: block;
+    margin: auto;
+}
+
+.second h3 {
+    color: black;
+    text-align: center;
+}
+
+.contents p {
+    font-size: 20px;
+    padding: 0px 5px;
+}
+
+.items li {
+    font-size: 19px;
+}
+
+.btn {
+    display: inline-block;
+    background: #e3342f;
+    color: #ffffff;
+    font-family: helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 0;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px 25px;
+    border-radius: 0 0 0 0;
+    border: 2px solid red;
+    margin: 25px;
+}
+
+.cont-2 {
+    padding: 0px 10px;
+}
+
+.part-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.part-2 img {
+    display: block;
+    margin: auto;
+}
+
+.cont-2 p {
+    margin: 30px 0px;
+
+}
+
+.extra {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width:496px) {
+    body {
+        padding: 0px 0px;
+    }
+
+    .second img {
+        height: 146px;
+        
+    }
+
+    .head img {
+
+        padding: 5px 0px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        word-break: break-word;
+        height: 43px;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:600px) {
+    body {
+
+        padding: 0px 50px;
+    }
+
+    .second img {
+
+        display: block;
+        margin: auto;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:605px) and (max-width:800px) {
+    body {
+        /* background-color: green; */
+        padding: 0px 60px;
+    }
+
+    .second img {
+
+        display: block;
+        margin: auto;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:805px) and (max-width:1000px){
+    body{
+        /* background-color: purple; */
+        padding: 0px 120px;
+    }
+}
